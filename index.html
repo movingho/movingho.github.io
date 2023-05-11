@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>SSG LANDERS FANSITE</title>
-    <style>
-      /* 전체 화면 스타일 */
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-      }
-      
-      /* 메뉴바 스타일 */
-      .menu {
-        display: flex;
-        justify-content: space-between;
-        background-color: darkred;
-        color: #fff;
-        height: 100px;
-        padding: 30px;
-        box-sizing: border-box;
-      }
-      
-      /* 링크 스타일 */
-      .menu a {
-        color: #fff;
-        text-decoration: ;
-        line-height: 50px;
-        margin: 20 10px;
-      }
-      
-      /* 링크 마우스 호버 스타일 */
-      .menu a:hover {
-        background-color: orangered;
-      }
-    </style>
-  </head>
-  
-  <body>
-    <div class="menu">
-      <div class="logo">
-        <a href="#">
-          <img scr ="logo.png">
-          </a>
-      </div>
-      <div class="links">
-        <a href="#">링크1</a>
-        <a href="#">링크2</a>
-        <a href="#">링크3</a>
-      </div>
-    </div>
-  </body>
+<head>
+	<title>SSGLANDERS FANSITE</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.logo {
+			font-size: 24px;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+		.menu {
+			display: flex;
+			align-items: center;
+		}
+		.menu a {
+			color: #fff;
+			padding: 10px;
+			text-decoration: none;
+			transition: background-color 0.3s ease;
+		}
+		.menu a:hover {
+			background-color: #555;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo">로고</div>
+		<nav class="menu">
+			<a href="#">메뉴1</a>
+			<a href="#">메뉴2</a>
+			<a href="#">메뉴3</a>
+			<a href="#">메뉴4</a>
+			<a href="#">메뉴5</a>
+		</nav>
+	</header>
+	<main>
+		<p>여기에 본문 내용을 작성하세요.</p>
+	</main>
+</body>
 </html>
