@@ -1,35 +1,61 @@
 .bg {
-background-color:rgba(0, 0, 0, 0.5); /*살짝 투명한 검정으로 배경색*/
-width: 100%;
-height:100vh;
+background-color:rgba(0, 0, 0, 0.65); /*살짝 투명한 검정으로 배경색*/
+width: 1912px;
+height: 969px;
 position: absolute; /*다른 요소들 위로 겹쳐질 수 있게함*/
-top:10px;
+top: 0;
+justify-content: center;
 
 }
 
 section{
     background-image: url(bg.png);
     background-size: cover;
-    display:block;
-    width:100%;
-    height:100vh;
-    color:#ffffff;
-    text-align: center;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 1912px;
+      height: 950px;
+      color: #ffffff;
   }
 
 section h1{
     position: relative;
-    font-size: 70px;
+    font-size: 200px;
+    text-align: center;
     z-index:1000; /*맨 앞으로 나오도록 함*/
 }
 
 section p{
     position: relative;
-    z-index:1000; /*맨 앞으로 나오도록 함*/
+    text-align: center;
+    z-index:1000;
     font-size: 15px;
 }
 
 section a{
     position: relative;
-    z-index:1000; /*맨 앞으로 나오도록 함*/
+    z-index:1000;
+    text-align: center;
+}
+.rounded-box {
+    width: 300px;
+    height: 260px;
+    border-radius: 50px;
+    background-color:rgb(192, 28, 50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:1000;
+    position: relative;
+    text-align: center;
+}
+.rounded-box a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    z-index:1000;
+    text-align: center;
+    font-size: 20px;
 }
