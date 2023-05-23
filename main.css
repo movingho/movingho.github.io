@@ -39,6 +39,12 @@ section a{
     border: 7px solid rgb(236, 240, 255);
     background-image: url(menu2.jpg);
     background-size: cover;
+    transition: all 0.2s linear;
+
+}
+
+.rounded-box1:hover {
+    transform: scale(1.4);
 }
 
 .rounded-box1 a {
@@ -63,7 +69,14 @@ section a{
     border: 7px solid rgb(236, 240, 255);
     background-image: url(menu3.jpg);
     background-size:cover;
+    transition: all 0.2s linear;
+
     
+}
+
+.rounded-box2:hover {
+    transform: scale(1.4);
+    }
 }
 
 .rounded-box2 a {
@@ -87,7 +100,12 @@ section a{
     text-align: center;
     border: 7px solid rgb(236, 240, 255);
     background-image: url(bg.png);
-    
+    transition: all 0.2s linear;
+
+}
+
+.rounded-box3:hover {
+    transform: scale(1.4);
 }
 
 .rounded-box3 a {
