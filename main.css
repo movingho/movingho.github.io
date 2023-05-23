@@ -44,7 +44,7 @@ section a{
 }
 
 .rounded-box1:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
 
 .rounded-box1 a {
@@ -55,6 +55,7 @@ section a{
     font-size: 40px;
     font-family: "Georgia";
     text-shadow: 2px 2px rgb(192, 28, 50);
+    cursor: default;
 }
 
 .rounded-box2 {
@@ -75,9 +76,8 @@ section a{
 }
 
 .rounded-box2:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
     }
-}
 
 .rounded-box2 a {
     color: rgb(236, 240, 255);
@@ -87,6 +87,7 @@ section a{
     font-size: 40px;
     font-family: "Georgia";
     text-shadow: 2px 2px rgb(192, 28, 50);
+    cursor: default;
 }
 
 .rounded-box3 {
@@ -101,11 +102,11 @@ section a{
     border: 7px solid rgb(236, 240, 255);
     background-image: url(bg.png);
     transition: all 0.2s linear;
-
+    cursor:default;
 }
 
 .rounded-box3:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
 
 .rounded-box3 a {
