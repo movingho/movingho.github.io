@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>명예의 전당</title>
+<style>
+        body {
+        background-color: black;
+        .box {
+        display: flex;
+        list-style: none;
+        color: gold;
+        }
+        
+        .box li {
+            flex:1; height: 100vh; text-align: center; line-height: 100vh;
+            transition: all 0.1s linear;
+        }
+        .box li:hover {
+            flex:3;
+            font-size: 30px;
+            color: black;
+        }
+        
+        .box li:not(:hover) {
+            flex:0.3;
+            font-size:15px;
+        }
+        
+        
+        .box li:nth-child(n) {
+        background-color: black;
+        color: gold;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: "Georgia";
+        line-height: center;
+        }
+        .box li:nth-child(n):hover {
+            color: white;
+            line-height: 30vh;
+            background-color: black;
+        }
+        
+        .box li:nth-child(n):not(:hover) {
+            color: gold;
+        }
+        
+    }
+    </style></head>
+<body>
+    <ul class="box">
+        <li><span>김원형</span></li>
+        <li>이호준</li>
+        <li>박정권</li>
+        <li>정대현</li>
+        <li>한유섬</li>
+        <li>김광현</li>
+        <li>최정</li>
+        <li>박경완</li>
+        <li>김재현</li>
+        <li>박재홍</li>
+        <li>박재상</li>
+      </ul>
+</body>
+</html>
