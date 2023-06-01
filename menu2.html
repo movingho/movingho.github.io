@@ -359,6 +359,72 @@
             if (check6 == 0) {
                 check6 = 1;
                 if (option == "1") {
+                    LG -= 1
+                    SSG -= 4
+                    LOT -= 1
+                    DOO -= 5
+                    KIA -= 4
+                    NC -= 3
+                    SAM -= 3
+                    KIW -= 4
+                    HH -= 1
+                    KT -= 3
+                } else if (option == "2") {
+                    LG -= 0.5
+                    SSG -= 2
+                    LOT -= 0.5
+                    DOO -= 2.5
+                    KIA -= 2
+                    NC -= 1.5
+                    SAM -= 1.5
+                    KIW -= 2
+                    HH -= 0.5
+                    KT -= 1.5
+                } else if (option == "3") {
+                    LG += 0
+                    SSG += 0
+                    LOT += 0
+                    DOO += 0
+                    KIA += 0
+                    NC += 0
+                    SAM += 0
+                    KIW += 0
+                    HH += 0
+                    KT += 0
+                } else if (option == "4") {
+                    LG += 0.5
+                    SSG += 2
+                    LOT += 0.5
+                    DOO += 2.5
+                    KIA += 2
+                    NC += 1.5
+                    SAM += 1.5
+                    KIW += 2
+                    HH += 0.5
+                    KT += 1.5
+                } else if (option == "5") {
+                    LG += 1
+                    SSG += 4
+                    LOT += 1
+                    DOO += 5
+                    KIA += 4
+                    NC += 3
+                    SAM += 3
+                    KIW += 4
+                    HH += 1
+                    KT += 3
+            }
+        }
+        else {
+                alert("수정이 불가능합니다.")
+                location.reload()
+            }
+        }
+
+        function q7(option) {
+            if (check7 == 0) {
+                check7 = 1;
+                if (option == "1") {
                     LG += 1
                     SSG += 1
                     LOT += 1
@@ -618,30 +684,54 @@
         </div>
     </form>
     <br>
-    <br><form id="surveyForm">
-        <p>나는 팀의 연고지가 가까워야한다</p>
+    <br>
+    <form id="surveyForm">
+        <p>나는 팀이 포스트시즌에 강했으면 좋겠다 </p>
         <div>
             <label>
-                <input type="radio" name="1" value="1" onclick="q5(this.value)"> 상관없다
-            </label>
-            <p style="font-size: 15px;">거주 지역을 선택해주세요</p>
-            <label>
-                <input type="radio" name="1" value="2" onclick="q6(this.value)"> 서울특별시
+                <input type="radio" name="1" value="1" onclick="q6(this.value)"> 전혀 아니다
             </label>
             <label>
-                <input type="radio" name="1" value="3" onclick="q6(this.value)"> 경기도
+                <input type="radio" name="1" value="2" onclick="q6(this.value)"> 아니다
             </label>
             <label>
-                <input type="radio" name="1" value="4" onclick="q6(this.value)"> 강원도
+                <input type="radio" name="1" value="3" onclick="q6(this.value)"> 보통이다
             </label>
             <label>
-                <input type="radio" name="1" value="5" onclick="q6(this.value)"> 전라도
+                <input type="radio" name="1" value="4" onclick="q6(this.value)"> 그렇다
             </label>
             <label>
-                <input type="radio" name="1" value="6" onclick="q6(this.value)"> 경상도
+                <input type="radio" name="1" value="5" onclick="q6(this.value)"> 매우 그렇다
+            </label>
+        </div>
+    </form>
+    <br>
+    <br>
+    <form id="surveyForm">
+        <p>나는 팀의 연고지가 멀어도 상관없다</p>
+        <div>
+            <label>
+                <input type="radio" name="1" value="1" onclick="q7(this.value)"> 상관없다
+            </label>
+            <p style="font-size: 25px;">팀의 연고지가 가까워야한다</p>
+            <p style="font-size: 15px; color: brown;">지역을 선택해주세요</p>
+            <label>
+                <input type="radio" name="1" value="2" onclick="q7(this.value)"> 서울특별시
             </label>
             <label>
-                <input type="radio" name="1" value="7" onclick="q6(this.value)"> 충청도
+                <input type="radio" name="1" value="3" onclick="q7(this.value)"> 경기도
+            </label>
+            <label>
+                <input type="radio" name="1" value="4" onclick="q7(this.value)"> 강원도
+            </label>
+            <label>
+                <input type="radio" name="1" value="5" onclick="q7(this.value)"> 전라도
+            </label>
+            <label>
+                <input type="radio" name="1" value="6" onclick="q7(this.value)"> 경상도
+            </label>
+            <label>
+                <input type="radio" name="1" value="7" onclick="q7(this.value)"> 충청도
             </label>
         </div>
     </form>
