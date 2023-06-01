@@ -6,8 +6,8 @@ body {
     align-items: center;
     color: #ffffff;
     text-align: center;
-    display: 
-  }
+    
+}
 
 table {
     margin-left: auto;
@@ -42,21 +42,23 @@ a{
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 7px solid rgb(236, 240, 255);
+    border: 7px solid black;
     background-size: cover;
     transition: all 0.1s linear;
+    background-image: url("menu1_dark.png");
 
 }
 
 .rounded-box1:hover {
     transform: scale(1.2);
-    background-image: url("menu2.jpg");
+    background-image: url("menu1.png");
     background-color: black;
+    border: 7px solid #292727bd;
     
 }
 
 .rounded-box1 a {
-    color: gold;
+    color: rgb(236, 240, 255);
     text-shadow: 2px 2px brown;
     text-decoration: none;
     font-weight: bold;
@@ -82,8 +84,8 @@ a{
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 7px solid rgb(236, 240, 255);
-    background-image: url(menu3.jpg);
+    border: 7px solid black;
+    background-image: url(menu2_dark.png);
     background-size:cover;
     transition: all 0.1s linear;
 
@@ -92,6 +94,8 @@ a{
 
 .rounded-box2:hover {
     transform: scale(1.2);
+    background-image: url("menu2.png");
+    border: 7px solid #292727bd;
     }
 
 .rounded-box2 a {
@@ -114,14 +118,18 @@ a{
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 7px solid rgb(236, 240, 255);
-    background-image: url(bg.png);
+    border: 7px solid black;
+    background-image: url(menu3_dark.png);
+    background-size: cover;
     transition: all 0.1s linear;
     cursor:default;
 }
 
 .rounded-box3:hover {
     transform: scale(1.2);
+    background-image: url("menu3.png");
+    background-size: cover;
+    border: 7px solid #292727bd;
 }
 
 .rounded-box3 a {
