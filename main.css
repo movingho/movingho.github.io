@@ -85,7 +85,7 @@ a{
     justify-content: center;
     text-align: center;
     border: 7px solid black;
-    background-image: url(menu2_dark.png);
+    background-image: url("menu2_dark.png");
     background-size:cover;
     transition: all 0.1s linear;
 
@@ -119,7 +119,7 @@ a{
     justify-content: center;
     text-align: center;
     border: 7px solid black;
-    background-image: url(menu3_dark.png);
+    background-image: url("menu3_dark.png");
     background-size: cover;
     transition: all 0.1s linear;
     cursor:default;
