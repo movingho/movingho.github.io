@@ -74,12 +74,6 @@
         timerID = setTimeout("load('menu1_7.html')", time);
     }
 
-    function startTimer8(time) {
-        timerID = setTimeout("load('menu1_8.html')", time);
-    }
-
-    
-
     function cancelTimer() {
         if(timerID != null)
             clearTimeout(timerID);
@@ -100,8 +94,7 @@
         <li onmouseover="startTimer4(1500)" onmouseout="cancelTimer()" onclick="load('menu1_4.html')">정대현</li>
         <li onmouseover="startTimer5(1500)" onmouseout="cancelTimer()" onclick="load('menu1_5.html')">최정</li>
         <li onmouseover="startTimer6(1500)" onmouseout="cancelTimer()" onclick="load('menu1_6.html')">박경완</li>
-        <li onmouseover="startTimer7(1500)" onmouseout="cancelTimer()" onclick="load('menu1_7.html')">이재원</li>
-        <li onmouseover="startTimer8(1500)" onmouseout="cancelTimer()" onclick="load('menu1_8.html')">박재홍</li>
+        <li onmouseover="startTimer8(1500)" onmouseout="cancelTimer()" onclick="load('menu1_7.html')">박재홍</li>
       </ul>
 </body>
 </html>
