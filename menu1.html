@@ -13,33 +13,26 @@
         }
         
         .box li {
-            flex:1; height: 100vh; text-align: center; line-height: 100vh;
-            transition: all 0.1s linear;
+            flex: 1; height: 100vh; text-align: center; line-height: 100vh;
         }
         .box li:hover {
-            flex:3;
             font-size: 30px;
             color: black;
             line-height: 100vh;
         }
         
-        .box li:not(:hover) {
-            flex:0.3;
-            font-size:15px;
-        }
-        
-        
-        .box li:nth-child(n) {
+        .box li {
         background-color: black;
         color: gold;
         text-decoration: none;
         font-weight: bold;
         font-family: "Georgia";
         line-height: center;
+        cursor: default;
         }
         .box li:nth-child(n):hover {
             color: white;
-            line-height: 30vh;
+            line-height: 100vh;
             background-color: black;
         }
     
@@ -73,6 +66,9 @@
     function startTimer7(time) {
         timerID = setTimeout("load('menu1_7.html')", time);
     }
+
+
+    
 
     function cancelTimer() {
         if(timerID != null)
