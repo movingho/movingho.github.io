@@ -20,6 +20,7 @@
             flex:3;
             font-size: 30px;
             color: black;
+            line-height: 100vh;
         }
         
         .box li:not(:hover) {
@@ -41,23 +42,66 @@
             line-height: 30vh;
             background-color: black;
         }
-        
-        .box li:nth-child(n):not(:hover) {
-            color: gold;
-        }
-        
+    
+    </style>
+<script>
+    var timerID = null;
+    function startTimer1(time) {
+        timerID = setTimeout("load('https://naver.com')", time);
     }
-    </style></head>
+
+    function startTimer2(time) {
+        timerID = setTimeout("load('https://naver.com')", time);
+    }
+
+    function startTimer3(time) {
+        timerID = setTimeout("load('https://naver.com')", time);
+    }
+
+    function startTimer4(time) {
+        timerID = setTimeout("load('https://naver.com')", time);
+    }
+
+    function startTimer5(time) {
+        timerID = setTimeout("load('https://naver.com')", time);
+    }
+
+    function startTimer6(time) {
+        timerID = setTimeout("load('https://naver.com')", time);
+    }
+
+    function startTimer7(time) {
+        timerID = setTimeout("load('https://naver.com')", time);
+    }
+
+    function startTimer8(time) {
+        timerID = setTimeout("load('https://naver.com')", time);
+    }
+
+    
+
+    function cancelTimer() {
+        if(timerID != null)
+            clearTimeout(timerID);
+    }
+
+    function load(url) {
+        var option = "width = 600, height = 1500";
+        window.open(url, name, option);
+    }
+
+</script>   
+</head>
 <body>
     <ul class="box">
-        <li>김원형</li>
-        <li>이호준</li>
-        <li>박정권</li>
-        <li>정대현</li>
-        <li>최정</li>
-        <li>박경완</li>
-        <li>이재원</li>
-        <li>박재홍</li>
+        <li onmouseover="startTimer1(1500)" onmouseout="cancelTimer()">김원형</li>
+        <li onmouseover="startTimer2(1500)" onmouseout="cancelTimer()">이호준</li>
+        <li onmouseover="startTimer3(1500)" onmouseout="cancelTimer()">박정권</li>
+        <li onmouseover="startTimer4(1500)" onmouseout="cancelTimer()">정대현</li>
+        <li onmouseover="startTimer5(1500)" onmouseout="cancelTimer()">최정</li>
+        <li onmouseover="startTimer6(1500)" onmouseout="cancelTimer()">박경완</li>
+        <li onmouseover="startTimer7(1500)" onmouseout="cancelTimer()">이재원</li>
+        <li onmouseover="startTimer8(1500)" onmouseout="cancelTimer()">박재홍</li>
       </ul>
 </body>
 </html>
